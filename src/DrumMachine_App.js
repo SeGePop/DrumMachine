@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 
-export class App extends React.Component {
+export class DrumMachine_App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -68,7 +68,7 @@ export class App extends React.Component {
 
   render() {
     return (
-      <div className="App" id="drum-machine">
+      <div className="DrumMachineApp" id="drum-machine">
         <p id="display">{this.state.editor}</p>
 
         <div
